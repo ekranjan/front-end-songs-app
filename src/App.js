@@ -16,16 +16,16 @@ function App() {
   return (
     <div className="App">
 
-      <Calculator/>
+      {/* <Calculator/> */}
 
-      {/* <Routes>
+      <Routes>
         <Route path='/login' element={<Login />}></Route>
         <Route path='/song-list' element={<SongsList />}></Route>
         <Route path='/add-song' element={<AddSong />}></Route>
         <Route path='/delete-song' element={<DeleteSong />}></Route>
         <Route path='/' element={<Navigate to={'/login'} />} ></Route>
         <Route path='*' element={<h1>Page not found</h1>}></Route>
-      </Routes> */}
+      </Routes>
     </div>
   );
 }
