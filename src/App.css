@@ -1,0 +1,12 @@
+.header-username{
+    text-align: right;
+    font-size: 30px;
+    font-weight: bold;;
+}
+
+.border{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    box-sizing: border-box;
+}
